@@ -1,9 +1,28 @@
-title: "My Personal Blog"
-description: "Welcome to my personal blog."
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://yourusername.github.io" # your base URL
-author: "Your Name"
-theme: minima
+title: "Chen"
+name : &name "Bill Chen"
+url : https://chy990.github.io
 
-# Build settings
-markdown: kramdown
+author:
+ avatar: # "profile.png"
+ name : "Chen"
+ pronouns : "he/him"
+ bio : "Adjustment"
+ location : "Sydney"
+ email : "chy1923734008@gmail.com"
+
+include: 
+ - _pages
+ - files
+
+encoding : "utf-8"
+markdown_ext : "markdown,mkdown,mkdn,mkd,md"
+
+plugins:
+ - jekyll-paginate
+ - jekyll-sitemap
+ - jekyll-gist
+ - jekyll-gist
+ - jekyll-feed
+ - jekyll-redirect-from
+
+ 

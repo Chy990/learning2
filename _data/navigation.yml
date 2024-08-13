@@ -1,0 +1,12 @@
+main:
+  - title: "Publications"
+    url: /publications/
+
+  - title: "Uni"
+    url: /unicourse/
+
+  - title: "Guide"
+    url: /guide/
+    
+  - title: "Contact"
+    url: /contact/
